@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="/style.css" />
+    <title>Events Management</title>
+  </head>
+  <body>
+    <!-- Header section start -->
+    <header class="header_section">
+      <div class="header_container">
+        <div class="logo">
+          <a href="#">
+            <img src="/img/Logo-2.png" />
+          </a>
+        </div>
+        <div class="nav_links" id="navLinks">
+          <i class="fas fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li>
+              <a href="#">Events Management</a>
+            </li>
+            <li>
+              <a href="#">Congress & Exhibition</a>
+            </li>
+            <li>
+              <a href="#">Production</a>
+            </li>
+            <li>
+              <a href="#" id="engagement">Engagement</a>
+            </li>
+          </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+      </div>
+    </header>
+    <!-- Header section end -->
+
+    <!-- team_building section start -->
+    <section class="team_building">
+      <h1>TEAM BUILDING ACTIVITIES</h1>
+    </section>
+    <!-- team_building end -->
+
+    <!-- outdoor section start -->
+    <section class="outdoor_section">
+      <div class="outdoor_container">
+        <div class="links">
+          <ul>
+            <li><a href="#" onclick="homePage()">All</a></li>
+            <li class="vertical_line"></li>
+            <li><a href="#" onclick="indoorCat()">Indoor</a></li>
+            <li class="vertical_line"></li>
+            <li><a href="#" onclick="outdoorCat()">Outdoor</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- outdoor section end -->
+
+    <!-- Section for All heading start -->
+    <section class="heading_section">
+      <div class="container">
+        <h1>All Cetagories</h1>
+        <h2><span>1.</span> Indoor Activities</h2>
+      </div>
+    </section>
+    <!-- Section for All heading end -->
+
+    <!-- Indoor Section start -->
+    <section class="indoor_section">
+      <div class="img_container">
+        <div class="img img-container">
+          <img src="/img/children.jpg" />
+          <div class="img-content">
+            <a href="#" class="btn btn-primary" onclick="indoorDetail()"
+              >View Detail</a
+            >
+          </div>
+        </div>
+        <div class="img img-container">
+          <img src="/img/indoor-2.jpg" />
+          <div class="img-content">
+            <a href="#" class="btn btn-primary" onclick="indoorDetail()"
+              >View Detail</a
+            >
+          </div>
+        </div>
+
+        <div class="img img-container">
+          <img src="/img/indoor-4.jpg" />
+          <div class="img-content">
+            <a href="#" class="btn btn-primary" onclick="indoorDetail()"
+              >View Detail</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="img_container second_row">
+        <div class="img img-container">
+          <img src="/img/indoor-3.jpg" />
+          <div class="img-content">
+            <a href="#" class="btn btn-primary" onclick="indoorDetail()"
+              >View Detail</a
+            >
+          </div>
+        </div>
+        <div class="img img-container">
+          <img src="/img/indoor-5.jpg" />
+          <div class="img-content">
+            <a href="#" class="btn btn-primary" onclick="indoorDetail()"
+              >View Detail</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Indoor Section end -->
+
+    <!-- Section for All heading start -->
+    <section class="heading_section">
+      <div class="container">
+        <h2><span>2.</span> Outdoor Activities</h2>
+      </div>
+    </section>
+    <!-- Section for All heading end -->
+
+    <!-- outdoor Section start -->
+    <section class="outdoor_section">
+      <div class="img_container">
+        <div class="img img-container">
+            <img src="/img/indoor-2.jpg" />
+            <div class="img-content">
+              <a href="#" class="btn btn-primary" onclick="outdoorDetail()"
+                >View Detail</a
+              >
+            </div>
+        </div>
+        <div class="img img-container">
+          <img src="/img/indoor-3.jpg" />
+          <div class="img-content">
+            <a href="#" class="btn btn-primary" onclick="outdoorDetail()"
+              >View Detail</a
+            >
+          </div>
+      </div>
+      <div class="img img-container">
+        <img src="/img/indoor-4.jpg" />
+        <div class="img-content">
+          <a href="#" class="btn btn-primary" onclick="outdoorDetail()"
+            >View Detail</a
+          >
+        </div>
+    </div>
+      </div>
+
+      <div class="img_container second_row">
+        <div class="img img-container">
+          <img src="/img/children.jpg" />
+          <div class="img-content">
+            <a href="#" class="btn btn-primary" onclick="outdoorDetail()"
+              >View Detail</a
+            >
+          </div>
+      </div>
+      <div class="img img-container">
+        <img src="/img/indoor-5.jpg" />
+        <div class="img-content">
+          <a href="#" class="btn btn-primary" onclick="outdoorDetail()"
+            >View Detail</a
+          >
+        </div>
+    </div>
+      </div>
+    </section>
+    <!-- outdoor Section end -->
+
+    <script src="/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="/style.css" />
+    <title>Outdoor Detail</title>
+  </head>
+  <body>
+    <!-- Header section start -->
+    <header class="header_section">
+      <div class="header_container">
+        <div class="logo">
+          <a href="#">
+            <img src="/img/Logo-2.png" />
+          </a>
+        </div>
+        <div class="nav_links" id="navLinks">
+          <i class="fas fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li>
+              <a href="#">Events Management</a>
+            </li>
+            <li>
+              <a href="#">Congress & Exhibition</a>
+            </li>
+            <li>
+              <a href="#">Production</a>
+            </li>
+            <li>
+              <a href="#" id="engagement">Engagement</a>
+            </li>
+          </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+      </div>
+    </header>
+    <!-- Header section end -->
+
+    <!-- link section start -->
+    <section class="link_section">
+      <div class="back_link">
+        <li>
+          <span><</span>
+          <a href="#" onclick="backToOutdoor()" id="backToStage">Back</a>
+        </li>
+      </div>
+    </section>
+    <!-- link section end -->
+
+    <!-- Card Section start -->
+    <section class="card_section">
+      <div class="card_container">
+        <div class="card_img">
+          <img src="/img/children.jpg" />
+        </div>
+        <div class="card_text">
+          <div class="card_heading">
+            <h1>Children Outdoor Activities</h1>
+            <p>Game tagline will be here</p>
+          </div>
+
+          <div class="horizental_line"></div>
+          <div class="description">
+              <p>Description</p>
+          </div>
+          <div class="horizental_line"></div>
+
+          <div class="paragraph">
+              <p>Full details about the game will be shared here soon.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Card Section end -->
+
+    <script src="/script.js"></script>
+  </body>
+</html>
